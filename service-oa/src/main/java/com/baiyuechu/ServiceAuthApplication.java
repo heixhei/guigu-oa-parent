@@ -5,9 +5,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * 项目启动类
+ */
 @SpringBootApplication
-//@ComponentScan("com.baiyuechu")
-@MapperScan("com.baiyuechu.*.mapper")
+@ComponentScan("com.baiyuechu")
+//@MapperScan("com.baiyuechu.*.mapper")
 
 
 public class ServiceAuthApplication {
